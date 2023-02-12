@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+    body{
+      font-family: Helvetica;
+      background-image: url("../images/background.jpg");
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+    }
+  
+    .logo img{
+      width: 250px;
+      
+  }
+  
+  
+  .logoright{
+      display: flex;
+  }
+  
+  h3{
+      text-align: center;
+  }
+  
+  .topnav{
+      background-color: white;
+      display: flex;
+      justify-content: space-between;
+    }
+  
+    .nav2 {
+      margin-top: 125px;
+    
+  }
+  
+  
+  .footer{
+      background-color: white;
+      color: black;
+      margin-top: 200px;
+      height: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+      flex-wrap: wrap;
+      
+    }
+
+      /* Form Style */
+      form{
+        width: 500px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #034b6e;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+    }
+
+    /* Input Style */
+    input[type="file"]{
+        padding: 12px 20px;
+        margin-bottom: 20px;
+        width: 100%;
+        border: 1px solid #ccc;
+        background-color: #fff;
+        box-sizing: border-box;
+    }
+
+    /* Submit Button Style */
+    input[type="submit"]{
+        width: 100%;
+        background-color: #efb634;
+        border-radius: 4px;
+        color: white;
+        padding: 14px 20px;
+        margin-top: 20px;
+        border: none;
+        cursor: pointer;
+    }
+
+    /* Submit Button Hover Effect */
+    input[type="submit"]:hover {
+      background-color: white;
+      border: solid 2px;
+      color: black;
+    }
+
+    label {
+      color: white;
+      display: block;
+      margin-bottom: 10px;
+      margin-top: 10px;
+      }
+
+
+
+      @media only screen and (max-width:700px){
+
+        .logoright{
+          display: none;
+        }
+        
+        .text p{
+          font-size: 13px;
+          margin-left: 10px;
+        }
+        .img-cont img{
+          width: 274px;
+          height: 170px;
+        }
+        .nav2{
+          margin-top: 38px;
+        } 
+
+        .nav2 form
+        {
+          width: 300px;
+        }
+        
+      .footer{
+        margin-top: 85px;
+      }
+      .footer p{
+        margin-left: 20px;
+      }
+      
+        
+      }

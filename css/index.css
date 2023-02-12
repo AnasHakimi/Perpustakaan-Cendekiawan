@@ -1,0 +1,225 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+  body{
+    font-family: Helvetica;
+    background-image: url("../images/background.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    
+  }
+
+  .logo img{
+    width: 250px;
+    
+}
+
+.img-cont img{
+  width: 400px;
+    height: 220px;
+}
+
+.img-cont{
+  display: flex;
+    justify-content: center;
+}
+
+.bttn-cont{
+  margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.text-cont{
+  margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+h4{
+  margin-left: 20px;
+  color: white;
+
+}
+
+.cont-1{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 4px;
+  height: 410px;
+  width: 410px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+}
+
+.logoright{
+  display: flex;
+  margin-left: 900px;
+}
+
+
+.topnav{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .nav2 {
+    display: flex;
+    background-color: #034b6e;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+    width: 85%;
+    height: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 125px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0;
+}
+
+.nav2 ul {
+    list-style-type: none; /* Remove bullet points */
+    margin: 0; /* Remove margins */
+    padding: 0; /* Remove padding */
+}
+
+.nav2 li {
+    display: inline-block; /* Display list items as inline blocks */
+    margin-right: 10px; /* Add some space between the buttons */
+}
+
+.nav2 a {
+    text-decoration: none; /* Remove underlines from links */
+    color: rgb(255, 255, 255); /* Change link text color */
+    padding: 10px 15px; /* Add padding to the buttons */
+    border-radius: 5px; /* Add rounded corners to the buttons */
+    background-color: rgb(0, 0, 0); /* Add a background color to the buttons */
+    transition: background-color 0.2s ease-in; /* Add a transition for the background color */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+}
+
+.nav2 a:hover {
+    background-color: #ffffff; /* Change the background color on hover */
+    border: solid 1px;
+    color: black;
+}
+
+.text{
+  background-color: #20346a;
+  height: 60px;
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.text p{
+  color: white;
+  margin-left: 20px;
+}
+
+
+.dropbtn {
+  background-color: #034b6e;
+  border: none;
+  color: white;
+  padding: 14px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  height: 74px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  right: 0;
+  left: auto;
+  top: 100%;
+  bottom: auto;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+
+.footer{
+    background-color: white;
+    color: black;
+    margin-top: 200px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    
+  }
+
+
+@media only screen and (max-width:700px){
+
+  .logoright{
+    display: none;
+  }
+  
+  .text p{
+    font-size: 13px;
+    margin-left: 10px;
+  }
+  .img-cont img{
+    width: 274px;
+    height: 170px;
+  }
+  .nav2{
+    margin-top: 38px;
+  }
+  .cont-1{
+    width: -webkit-fill-available;
+    margin: 21px;
+    height: 350px;
+  }
+
+.nav2 li {
+    margin-right: 5px; /* Add some space between the buttons */
+}
+
+.nav2 a { 
+    padding: 10px 3px; /* Add padding to the buttons */
+}
+
+.footer{
+  margin-top: 85px;
+}
+.footer p{
+  margin-left: 20px;
+ 
+}
+
+  
+}
+  
