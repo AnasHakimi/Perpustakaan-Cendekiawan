@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+    body{
+      font-family: Helvetica;
+      background-image: url("../images/background.jpg");
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+    }
+  
+    .logo img{
+      width: 250px;
+      
+  }
+  
+  
+  .logoright{
+      display: flex;
+  }
+  
+  h3{
+      text-align: center;
+  }
+  
+  .topnav{
+      background-color: grey;
+      display: flex;
+      justify-content: space-between;
+    }
+  
+    .nav2 {
+      margin-top: 50px;
+    
+  }
+  
+  
+  .footer{
+      background-color: grey;
+      color: white;
+      margin-top: 600px;
+      height: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+      flex-wrap: wrap;
+      
+    }
+
+
+    form {
+        width: 50%;
+        margin: 0 auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        background-color: #f9f9f9;
+      }
+    
+    
+    
+      input[type="text"], select {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        background-color: #fff;
+      }
+    
+     
+    
+      input[type="submit"] {
+        width: 100%;
+        background-color: #4CAF50;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+    
+      input[type="submit"]:hover {
+        background-color: #45a049;
+      }
+
+     
+      
+
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        border-spacing: 0;
+        box-shadow: 0 2px 15px rgba(64, 64, 64, .7);
+        border-radius: 12px 12px 0 0;
+        margin-bottom: 50px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    
+      td,
+      th {
+        padding: 10px 16px;
+        text-align: center;
+      }
+    
+      th {
+        background-color: #584e46;
+        color: #fafafa;
+        font-family: 'Open Sans', Sans-serif;
+        font-weight: bold;
+      }
+    
+      tr {
+        width: 100%;
+        background-color: #fafafa;
+        font-family: 'Montserrat', sans-serif;
+      }
+    
+      tr:nth-child(even) {
+        background-color: #eeeeee;
+      }
+    
