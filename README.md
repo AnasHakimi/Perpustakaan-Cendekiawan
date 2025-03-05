@@ -30,6 +30,6 @@ This project enhanced my web development skills, strengthened my database manage
 
 ## Preview
 
-![Screenshot 2024-10-31 184759](https://github.com/user-attachments/assets/7bd8683b-3d27-4bc1-8eda-5a2151acc394)
+![Project Screenshot](https://github.com/AnasHakimi/Photostat_-_Printing_Service_System/blob/main/homepage.png?raw=true)
 - Homepage
 
