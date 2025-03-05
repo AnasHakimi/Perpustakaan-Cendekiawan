@@ -30,6 +30,6 @@ This project enhanced my web development skills, strengthened my database manage
 
 ## Preview
 
-![Project Screenshot](https://github.com/AnasHakimi/Sneakers_Co_Ecommerce_Website/blob/main/homepage.png)
+![Project Screenshot](https://github.com/AnasHakimi/Photostat_-_Printing_Service_System/blob/main/homepage.png?raw=true)
 - Homepage
 
